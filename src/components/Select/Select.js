@@ -13,10 +13,10 @@ const Select = ({ label, value, onChange, children }) => {
         <NativeSelector value={value} onChange={onChange}>
           {children}
         </NativeSelector>
-          <VisibleSelector>
-              {displayedValue}
-        <CustomIcon id='chevron-down' size={24}></CustomIcon>
-          </VisibleSelector>
+        <VisibleSelector>
+            {displayedValue}
+            <CustomIcon id='chevron-down' size={24}></CustomIcon>
+        </VisibleSelector>
       </Wrapper>
 
   );
